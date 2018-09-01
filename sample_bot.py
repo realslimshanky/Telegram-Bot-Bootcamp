@@ -55,6 +55,7 @@ def get_telegram_token():
 
 
 def start(bot, update):
+    '''handles all the /start command and sends message back'''
     bot.sendMessage(chat_id=update.message.chat_id, text="Hi! I'm bot!")
 
 
