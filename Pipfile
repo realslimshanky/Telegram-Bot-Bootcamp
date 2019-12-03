@@ -7,7 +7,7 @@ name = "pypi"
 
 [packages]
 jupyter = "*"
-python-telegram-bot = "==11.1.0"
+python-telegram-bot = "==12.2.0"
 requests = "*"
 
 [requires]
